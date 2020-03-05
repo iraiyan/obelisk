@@ -42,10 +42,10 @@ First, let's open a terminal, navigate to the path of your choice and define a v
 export WORKDIR=$(pwd)
 ~~~
 
-Then let's get obelisk from Github using the qa branch:
+Then let's get obelisk from Github using the develop branch:
 
 ~~~
-git clone https://github.com/obsidiansystems/obelisk -b qa "$WORKDIR/obelisk"
+git clone https://github.com/obsidiansystems/obelisk -b develop "$WORKDIR/obelisk"
 ~~~
 
 Once you have an obelisk check out, you can build it using Nix. And make a shortcut (alias) for the rest of the terminal session. With this, you will be able to type `ob` anywhere else in the system as long as you do not close the terminal.
