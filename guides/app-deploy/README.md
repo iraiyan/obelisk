@@ -65,7 +65,7 @@ On NixOS, do this by adding the following line to your `/etc/nixos/configuration
 
 then `sudo nixos-rebuild switch`.
 
-The NixOS [download page](https://nixos.org/nixos/download.html) has a section called "VirtualBox appliances". Download that as the target system. The author used the 19.09 `.ova` file.
+The NixOS [download page](https://nixos.org/nixos/download.html) has a section called "VirtualBox". Download the file as the target system. The author used the 19.09 `.ova` file.
 
 With the downloaded file, open VirtualBox and import the `.ova` file:
 
